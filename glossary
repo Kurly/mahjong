@@ -1,842 +1,281 @@
-[
-  {
-    "Agari": " (Win) Generic call for winning a hand."
-  },
-  {
-    "Agaripai": " (Winning tile) The 14th tile that completes a hand."
-  },
-  {
-    "Agariyame": " () An end game condition that allows the last dealer to declare the end of the game, when in possession of the first place position."
-  },
-  {
-    "Aidayonken": " (Four in between) An interval of four between two discarded number tiles. Usually indicates dangerous waits. A discarded 1 and 6 make a 2—5 wait very probable."
-  },
-  {
-    "Akapai": " (Red dora) Red tiles that count as Dora. Usually fives, but not always."
-  },
-  {
-    "An": " (Closed, concealed) Means _dark_ refers to tiles that are concealed in the hand."
-  },
-  {
-    "Anjun": " (Concealed sequence) Three self-drawn consecutive tiles of the same suit, used as one of the four tile groups in a regular hand. An open sequence would be a minjun, the general term for a sequence is shuntsu."
-  },
-  {
-    "Ankan": " (Concealed kan) Four self-drawn identical tiles set aside as a kantsu. Declaring an ankan does not open the hand if it was previously closed."
-  },
-  {
-    "“Ankou": " (Concealed triplet) Three self-drawn identical tiles, used as one of the four tile groups in a regular hand. Compare with the yaku names san ankou and suu ankou. An open triplet would be a minkou, and the general term for any triplet is koutsu."
-  },
-  {
-    "Anpai": " (Safe tile) Safe tile, or tiles not subject to _agari_ (to be called as winning tiles)."
-  },
-  {
-    "Aotenjou": " (No capping) A rarely used rule, which eliminates the score cappings _mangan_ _haneman_ etc., and scores all hands as directly with the scoring formula."
-  },
-  {
-    "Ari": " (In effect, on) States that the preceding rule is used, as in akadora ari for playing with red fives. Opposite of nashi."
-  },
-  {
-    "Ari ari": " () Ruleset which allows kuitan and atozuke. Most common basic set of rules in Japan."
-  },
-  {
-    "Atama": " (Pair, eye) The pair in a standard mahjong hand. Also _jantou_."
-  },
-  {
-    "Atamahane": " (Head bump) A rule that allows only one Ron at a time; the closest to the discarder in turn order takes priority."
-  },
-  {
-    "Atozuke": " (After-attach) Allows a hand to win despite having no guaranteed yaku while in tenpai, as long as the winning tile generates a yaku."
-  },
-  {
-    "Awaseuchi": " () Discarding the same tile as someone else, to avoid dealing into their hand."
-  },
-  {
-    "Ba": " (Wind round) A _wind round_ e.g. tonba (east round) or nanba (south round)."
-  },
-  {
-    "Baiman": " () A hand worth 8 to 10 han."
-  },
-  {
-    "Bakahon": " () Slang for _honitsu nomi_ with no extra yaku or dora."
-  },
-  {
-    "Bakaze": " (Round wind) Round wind."
-  },
-  {
-    "Barai": " (Payment) A payment.  Also _furikomi_."
-  },
-  {
-    "Basengo": " () A rule where each honba counter is worth of 1500 points instead of the regular 300 points."
-  },
-  {
-    "Bazoro": " () The two base Han used when calculating score, given by default rather than from yaku."
-  },
-  {
-    "Betaori": " (Full defense) A strategy that focuses entirely on avoiding dealing into opponents’ hands, with no intention of developing one’s own hand."
-  },
-  {
-    "Chakan": " (Added kan) A kantsu that was upgraded from a minkou."
-  },
-  {
-    "Shouminkan": " (Added kan) A kantsu that was upgraded from a minkou."
-  },
-  {
-    "Chii": " () The call used to make a minjun from an opponent’s discard."
-  },
-  {
-    "Chombo": " () A penalty, applied to particularly unacceptable mahjong plays, such as winning with an invalid hand or destroying the wall.  Typically, the penalty results in a mangan payment to all players and restarts the current round.  Otherwise, penalty values may be subject to Rule variation."
-  },
-  {
-    "Chunchan": " (Simples) The zone of tiles numbered from 2 through 8, representing tiles that can be grouped with tiles on each of its sides."
-  },
-  {
-    "Chunchanhai": " (Simples) The tiles in the zone numbered from 2 through 8. See tanyao for related yaku. Opposite of _yaochuuhai_."
-  },
-  {
-    "Daburon": " (Double ron) A rule that allows two people to simultaneously win from the same discarded tile."
-  },
-  {
-    "Daiminkan": " (Open kan) A kan formed with possession of three tile types, and calling on the discarded fourth tile."
-  },
-  {
-    "Damaten": " (Hidden tenpai) A tactic of holding tenpai without calling riichi."
-  },
-  {
-    "Dejitaru": " (Digital) A school of thought focused on the outcome of a game, explained by probability and statistics."
-  },
-  {
-    "Dora": " (Bonus tile) A feature to the game which rewards han to a hand, while in possession of tiles indicated by the revealed tile from the dead wall."
-  },
-  {
-    "Dorahyouji": " (Dora indicator) The flipped tile on the dead wall, indicating the dora."
-  },
-  {
-    "Enchousen": " (Overtime) Extra game round, in the event where no player scores more than the target points at the end of a normal game."
-  },
-  {
-    "Fu": " (Mini-points) A unit used to measure the hand’s score, based on tile group and wait composition."
-  },
-  {
-    "Furikomi": " (Payment) A payment, also _barai_."
-  },
-  {
-    "Furiten": " (Sacred discard) A rule that disables a player’s ability to win by discard, due to the presence of a winning tile in the discard and/or the declining of a win during riichi."
-  },
-  {
-    "Fuuro": " (tile group) Calling of discarded tile or closed kan, also _naki_."
-  },
-  {
-    "Fuutei": " (Base fu) The 20 base Fu used when calculating score, given by default rather than from composition."
-  },
-  {
-    "Genbutsu": " (Safe tile) A 100% safe tile."
-  },
-  {
-    "Goumii": " (Trash, garbage) The cheapest tsumo value, of 500 points from the dealer and 300 points from the non-dealers."
-  },
-  {
-    "Gyakuten": " (Passing, reversal) Refers to a situation, where a player passes up another player in points, at the end of the game."
-  },
-  {
-    "Haipai": " (Start hand) The players’ dealt tiles at the beginning of a hand."
-  },
-  {
-    "Haiteihai": " (Last draw) The last drawable tile in the wall."
-  },
-  {
-    "Haiyama": " (Wall) The walls from which tiles are drawn."
-  },
-  {
-    "Han": " () The hand value count based on yaku value and/or dora."
-  },
-  {
-    "Hanchan": " (Full East-South game) A game consisting of an East and South round."
-  },
-  {
-    "Haneman": " () A hand worth 6 or 7 han."
-  },
-  {
-    "Harabote": " () A Shanpon or Tanki wait embedded inside a Shuntsu. For example, 4556 waiting on 5."
-  },
-  {
-    "Hikkake": " (Trap) Discard tiles indicating particular tiles as safe, when in fact, they are not - contrary to standard defense reading."
-  },
-  {
-    "Honba": " (Repeat counter) A counter to indicate the number of hands in-between winning hands, usually indicated by 100-point sticks."
-  },
-  {
-    "Houjuu": " (Deal in) To deal into a hand."
-  },
-  {
-    "Houra": " () To win a hand"
-  },
-  {
-    "Houteihai": " (Last discard) The very last discarded tile for a hand, which may not subject to any tile calls other than _ron_."
-  },
-  {
-    "Iichan": " (4 round game) A game consisting of East, South, West, and North rounds. More common in Chinese variants."
-  },
-  {
-    "Ikasama": " () To cheat using sleight of hand, etc."
-  },
-  {
-    "Inchiki": " (Rigging) Cheating by manipulating devices integral to the game (autodealer, game client) or outside it (cameras, telegraphs, radio)."
-  },
-  {
-    "Jansou": " (Mahjong parlor) A public place specifically used to host and cater mahjong play"
-  },
-  {
-    "Jantou": " (Pair, eye) The pair in a standard mahjong hand. Also _atama_."
-  },
-  {
-    "Jigokumachi": " (Hell wait) A wait in which all but one of the winning tiles are visible or claimed."
-  },
-  {
-    "Jihai": " (Honor tiles) The honor tiles (sangenpai and kazehai)."
-  },
-  {
-    "Jikaze": " (Self wind) Your seat wind."
-  },
-  {
-    "Jun": " (Turn) The turn number within a round."
-  },
-  {
-    "Kabe": " () A tile-counting technique that measures the possibility of someone making Shuntsu based on how many instances of a tile are visible."
-  },
-  {
-    "Kakan": " (Upgraded kan) A kan that was upgraded from a tile grouped set, from a player’s own draws or hand."
-  },
-  {
-    "Kamicha": " () The player to the left of one’s perspective."
-  },
-  {
-    "Kandora": " (Added dora) Additional dora indicators, when the call for kan is invoked."
-  },
-  {
-    "Kata agari": " () A hand tenpai for at least one invalid tile."
-  },
-  {
-    "Kawa": " (Pond, Discard pile) Meaning _river_.  This describes the discarded tiles."
-  },
-  {
-    "Kantsu": " (Quad) A tile group of four identical tiles, which must be declared as kan to be counted as such."
-  },
-  {
-    "Kanchan": " (Closed wait) A wait that completes the inside of a Shuntsu, like a 4-6 waiting on 5."
-  },
-  {
-    "Kandora": " () Additional dora indicators revealed after calling kan."
-  },
-  {
-    "Karaten": " (Empty tenpai) The state of a tenpai hand, by which all available waiting tiles are not available due to discards and/or dora indicators."
-  },
-  {
-    "Kazehai": " (Winds) Wind tiles."
-  },
-  {
-    "Keishiki tenpai": " () A state of tenpai that contains no yaku.  As long as the hand is waiting for a tile that could exist anywhere outside a player’s hand and calls, the hand is considered tenpai."
-  },
-  {
-    "Kikenhai": " (Dangerous tile) Dangerous tile, or a tile that may be likely used by another player to win with."
-  },
-  {
-    "Kiriage Mangan": " (Rounded Mangan) A rule where 3 Han 60 Fu and 4 Han 30 Fu are rounded up to Mangan."
-  },
-  {
-    "Kiru": " (Discard) To discard a tile."
-  },
-  {
-    "Koutsu": " (Triplet) A tile group of three identical tiles."
-  },
-  {
-    "Kuikae": " () A rule that allows you to call a tile, then discard another tile that could have completed the tile group. For example, calling a 1 when you have 234 and then discard a 4."
-  },
-  {
-    "Kuisagari": " () A property of some yaku that reduces the han value by 1 when the hand is open."
-  },
-  {
-    "Kuitan": " (Open tanyao) A rule that allows tanyao to be open."
-  },
-  {
-    "Kyoku": " (Round, Hand session) A portion of the game, starting from the dealing of tiles and ends with the declaration of a win, Tochuu aborted hand, or draw. Examples:  East Round 1.  South Round 2."
-  },
-  {
-    "Machi": " (Wait pattern) The tiles waiting for with a tenpai hand."
-  },
-  {
-    "Mangan": " () A cap applied to the standard scoring equation.  Hands worth 3 han 70+ fu. 4 han 40+ fu, or 5 han are valued at mangan."
-  },
-  {
-    "Manzu": " (Characters) One of the three numbered suits, consisting of a kanji number plus 萬, meaning 10000."
-  },
-  {
-    "Mawashiuchi": " (Avoidance play) The strategy of attempting to develop a hand, while discarding only safe tiles."
-  },
-  {
-    "Mentanpin": " () Abbreviation for Menzen-Tanyao-Pinfu, a common set of yaku."
-  },
-  {
-    "Mentsu": " (tile group, Group (tiles)) The tile groups:  koutsu, shuntsu, and kantsu."
-  },
-  {
-    "Menzen": " (Closed hand) A fully closed hand, thus no open tile groups."
-  },
-  {
-    "Min": " (Open) Meaning _light_ refers to tiles that have been exposed by calling."
-  },
-  {
-    "Minjun": " (Open sequence) An open shuntsu, or a sequence of three consecutive tiles, formed by calling chii on the previously missing tile. A concealed shuntsu would be an anjun."
-  },
-  {
-    "Minkou": " (Open triplet) An open koutsu made by calling a discarded tile."
-  },
-  {
-    "Minogashi": " (Let free) The act of declining a winning tile."
-  },
-  {
-    "Moupai": " (Blind touch) The act of reading a tile by touch, instead of looking at the tile."
-  },
-  {
-    "Naki": " () Calling a discarded tile."
-  },
-  {
-    "Nan": " (South) South wind tile."
-  },
-  {
-    "Nashi": " (Invalid, off) States that the preceding rule is not in effect._nFor example, as in kuikae nashi for disallowing players to call a tile and immediately discard another tile which would have also completed the called tile group."
-  },
-  {
-    "Nashi Nashi": " () Ruleset which disallows kuitan and atozuke. Opposite of Ari Ari."
-  },
-  {
-    "Nobetan": " (Extended tanki) A double Tanki wait, e.g. 4567 waiting on 4 or 7."
-  },
-  {
-    "Nomi": " (Only) A term referring to a hand containing just a single yaku and no dora.  The term is not applicable to nagashi mangan or yakuman."
-  },
-  {
-    "Noten": " (No tenpai) When your hand is not in tenpai at the end of the round."
-  },
-  {
-    "Noten bappu": " (Noten penalty) A payment made at the end of a round by those who are not in tenpai (or choose not to reveal their hands) to those who are in tenpai."
-  },
-  {
-    "Nukidora": " (Extracted dora) A tile that counts as Dora when extracted from the hand, e.g. flower tiles or the Pei (North) in most three-player variants."
-  },
-  {
-    "Okaruto": " (Occult, Superstition) A school of thought tying game outcome with luck, flow, mahjong demons, psychology, etc."
-  },
-  {
-    "Oka": " (Winner bonus) First place bonus applied when calculating uma."
-  },
-  {
-    "Oikake riichi": " (Riichi roulette) To declare riichi after someone else rather than defend."
-  },
-  {
-    "Okurikan": " () Four tiles that could be called for kan, but rather left undeclared in order to use the tiles for other tile groups."
-  },
-  {
-    "Oorasu": " (All last, Last hand) The final regular hand of a game."
-  },
-  {
-    "Otakaze": " (Off wind tiles) Non-bonus wind tiles. For example, if seated South in the East round, then Otakaze are West and North tiles."
-  },
-  {
-    "Oya": " (Dealer) The dealer position, seated east"
-  },
-  {
-    "Pai": " (Draw) Generic term for a tile draw, usually attached to specific tile draws like _rinshanpai_ or _haiteihai_."
-  },
-  {
-    "Pao": " () A property of certain yakuman that causes one person to be responsible for the whole payment if they discarded the tile that made it a yakuman."
-  },
-  {
-    "Pei": " (North) North wind tile."
-  },
-  {
-    "Penchan": " (End wait) A wait consisting of 12 waiting on 3, or 89 waiting on 7."
-  },
-  {
-    "Pinzu": " (Dots, Circles) The suit consisting of dot patterns."
-  },
-  {
-    "Pon": " (Open triplet) A tile call used to make a minkou from an opponent’s discard."
-  },
-  {
-    "Renchan": " () A continuation of dealer position because the dealer either won or was tenpai at the end of the round."
-  },
-  {
-    "Riipai": " (Sorting) Arranging the tiles in your hand."
-  },
-  {
-    "Rinshanpai": " (Dead wall draw) The tile drawn after making a Kan."
-  },
-  {
-    "Ron": " (Deal in) A win using an opponent’s discard."
-  },
-  {
-    "Routouhai": " (Terminals) The tiles numbered 1 and 9."
-  },
-  {
-    "Ryanhan shibari": " (2-han minimum) A minimum limit of 2-han is applied to winning hands.  Usually, this is applied when the honba count reaches 5."
-  },
-  {
-    "Ryankan": " () Two kanchan shaped taatsu merged together, e.g. 357 which can be completed by either 4 or 6."
-  },
-  {
-    "Ryanmen": " (Open wait) A two-sided wait, like 56 waiting on 4 or 7."
-  },
-  {
-    "Ryuukyoku": " (Drawn hand) The end of the hand, where every tile not in players’ hands and the dead wall has been drawn and discarded; and no winning hand was determined."
-  },
-  {
-    "Saikoro": " (Dice) The dice, used to determine dealer position and wall breaks."
-  },
-  {
-    "Sakigiri": " () The act of discarding potentially dangerous tiles, before they actually become dangerous."
-  },
-  {
-    "Sakizuke": " () Same as atozuke. Some people think that sakizuke is the opposite of atozuke, but that is incorrect."
-  },
-  {
-    "Sanbaiman": " () A hand worth 11 or 12 han."
-  },
-  {
-    "Sangenpai": " (Dragons) The dragon tiles: Haku, Hatsu, and Chun."
-  },
-  {
-    "Sanma": " (Three player, 3P) The game played with three players."
-  },
-  {
-    "Sashikomi": " () Intentionally dealing into an opponent’s hand."
-  },
-  {
-    "Senten": " () A 1,000 point hand."
-  },
-  {
-    "Shaa/Xia": " (West) The west tile."
-  },
-  {
-    "Shabo": " (Dual pair) Abbreviation of shanpon."
-  },
-  {
-    "Shanten": " () Number of tiles needed to reach tenpai."
-  },
-  {
-    "Shanpon": " (Dual pairs) A wait consisting of two pairs, one of which must be upgraded to a koutsu."
-  },
-  {
-    "Shibori": " () Holding on to tiles that an opponent would otherwise be likely to pon or chi."
-  },
-  {
-    "Shimocha": " (Right player) The player to the right."
-  },
-  {
-    "Shoku": " (Color) Suit.  Literally means _color_."
-  },
-  {
-    "Shonpai": " (Live tile) A tile that has not yet been discarded this round."
-  },
-  {
-    "Shuntsu": " (Sequence) This is the generic term for, three consecutive tiles of the same suit, whether open or closed. Chii is used to call a tile to complete a shuntsu and set it aside as a minjun (open). A concealed (closed) shuntsu is an anjun."
-  },
-  {
-    "Shuupai": " (Number tiles) The number tiles. Also _suupai_."
-  },
-  {
-    "Somete": " (Flushing hand) A common saying of flushing hand, usually Honitsu (Half Flush) and Chinitsu (Full Flush). Literally means _dyeing hand_."
-  },
-  {
-    "Souzu": " (Bamboo tiles) The suit consisting of patterns of bamboo sticks."
-  },
-  {
-    "Suji": " (Tile interval) The tiles that complete ryanmen (open waits).  Means _muscle_."
-  },
-  {
-    "Suupai": " (Number tiles) The number tiles. Also _shuupai_."
-  },
-  {
-    "Suteru": " (To discard) To discard a tile."
-  },
-  {
-    "Taatsu": " (Protogroup) Any tile pair that can be turned into a tile group, or shuntsu, with one more tile. For example, 46 can be completed with a 5."
-  },
-  {
-    "Takame": " () The specific tile with a multiple tile wait, during tenpai, that would produce the most points.  Opposite of _yasume_."
-  },
-  {
-    "Tanyaohai": " (Simples) The tiles numbered 2 through 8. Also _chunchan_."
-  },
-  {
-    "Tanki": " (Pair wait) A wait on a single tile to complete the pair."
-  },
-  {
-    "Tedashi": " () To discard a tile originally from hand. Opposite of _tsumogiri_."
-  },
-  {
-    "Tenbou": " (Point sticks) Point sticks used for manual scoring."
-  },
-  {
-    "Tenpai": " (Ready) A hand that needs only one tile to win."
-  },
-  {
-    "Tenpane": " () The advantage of rounding up to the higher 10 fu mark, when just crossing the previous 10 fu.  Example: Being 2 fu above 30 fu, allowing an above rounding of 40 fu."
-  },
-  {
-    "Tobi": " (Bankrupt, Negative) The condition by which players points fall below zero (go into negative)."
-  },
-  {
-    "Tochuu ryuukyoku": " (Abortive draw) Specific conditions that immediately ends a hand session."
-  },
-  {
-    "Toitsu": " (Pair) A pair of identical tiles."
-  },
-  {
-    "Toimen": " (Across) The player sitting directly across from you."
-  },
-  {
-    "Ton": " (East) East wind tile."
-  },
-  {
-    "Tonpuusen": " (East only round) A game consisting of an East only round."
-  },
-  {
-    "Tsumo": " (Self-draw) A self-drawn tile.  Also short for Menzenchin tsumohou, or winning by self-draw."
-  },
-  {
-    "Tsumogiri": " () Discarding the tile that was just drawn. Opposite of _tedashi_."
-  },
-  {
-    "Ukeire": " () The tile count for a hand in order to reduce shanten."
-  },
-  {
-    "Uradora": " (Underneath dora) Additional dora located underneath previously revealed dora indicators, which can be earned by winning with riichi."
-  },
-  {
-    "Urasuji": " (Back vein) The discarded tile that lies just outside of a dangerous wait, one count higher (or lower) and represent a kanchan wait being upgraded to a ryanmen one"
-  },
-  {
-    "Wanpai": " (Dead wall) The _dead_ section of wall that can’t be used except for Dora indicators and Kan draws."
-  },
-  {
-    "Wareme": " () A rule that doubles any payment involving the player whose wall was broken at the start of the hand."
-  },
-  {
-    "Yakitori": " (Winless game) A game, by which a player did not win at least one hand during a game ."
-  },
-  {
-    "Yaku": " (Hand pattern) A required scoring pattern or condition in the hand that awards han, such as Tanyao or Toitoi."
-  },
-  {
-    "Yakuman": " (Limit hand) A hand worth 13 han or more, or a specific pattern among the yakuman classed hand patterns.  Maximum points for a pattern is awarded without aotenjou applied."
-  },
-  {
-    "Yama": " () The tile walls, literally means _mountains_."
-  },
-  {
-    "Yamagoshi": " () A tactic of declining a winning tile, until after one’s subsequent turn."
-  },
-  {
-    "Yamiten": " () Another word for _damaten_."
-  },
-  {
-    "Yaochuuhai": " () All tiles numbered 1 and 9 (routouhai) plus characters (jihai)."
-  },
-  {
-    "Yasude": " (Cheap hand) A low scoring hand."
-  },
-  {
-    "Yasume": " () The specific tile(s) in a multiple wait that would produce the least points. Opposite of _takame_."
-  },
-  {
-    "Zentsuppa": " (All out) A strategy that attempts to win a hand at all costs while ignoring the possibility of dealing into an opponent’s hand."
-  },
-  {
-    "Iiman": " (One of numbers) The one of numbers tile."
-  },
-  {
-    "Ryanman": " (Two of numbers) The two of numbers tile."
-  },
-  {
-    "Sanman": " (Three of numbers) The three of numbers tile."
-  },
-  {
-    "Suuman": " (Four of numbers) The four of numbers tile."
-  },
-  {
-    "Uuman": " (Five of numbers) The five of numbers tile."
-  },
-  {
-    "Rouman": " (Six of numbers) The six of numbers tile."
-  },
-  {
-    "Chiiman": " (Seven of numbers) The seven of numbers tile."
-  },
-  {
-    "Paaman": " (Eight of numbers) The eight of numbers tile."
-  },
-  {
-    "Kyuuman": " (Nine of numbers) The nine of numbers tile."
-  },
-  {
-    "Iipin": " (One of circles) The one of circles tile."
-  },
-  {
-    "Ryanpin": " (Two of circles) The two of circles tile."
-  },
-  {
-    "Sanpin": " (Three of circles) The three of circles tile."
-  },
-  {
-    "Suupin": " (Four of circles) The four of circles tile."
-  },
-  {
-    "Uupin": " (Five of circles) The five of circles tile."
-  },
-  {
-    "Roupin": " (Six of circles) The six of circles tile."
-  },
-  {
-    "Chiipin": " (Seven of circles) The seven of circles tile."
-  },
-  {
-    "Paapin": " (Eight of circles) The eight of circles tile."
-  },
-  {
-    "Kyuupin": " (Nine of circles) The nine of circles tile."
-  },
-  {
-    "Iisou": " (One of bamboos) The one of bamboos tile."
-  },
-  {
-    "Ryansou": " (Two of bamboos) The two of bamboos tile."
-  },
-  {
-    "Sansou": " (Three of bamboos) The three of bamboos tile."
-  },
-  {
-    "Suusou": " (Four of bamboos) The four of bamboos tile."
-  },
-  {
-    "Uusou": " (Five of bamboos) The five of bamboos tile."
-  },
-  {
-    "Rousou": " (Six of bamboos) The six of bamboos tile."
-  },
-  {
-    "Chiisou": " (Seven of bamboos) The seven of bamboos tile."
-  },
-  {
-    "Paasou": " (Eight of bamboos) The eight of bamboos tile."
-  },
-  {
-    "Kyuusou": " (Nine of bamboos) The nine of bamboos tile."
-  },
-  {
-    "Haku": " (White dragon) The white dragon tile."
-  },
-  {
-    "Hatsu": " (Green dragon) The green dragon tile."
-  },
-  {
-    "Chun": " (Red dragon) The red dragon tile."
-  },
-  {
-    "Riichi": " () A yaku where one declares their hand ready at the cost of being unable to change it. Worth 1 han, closed only."
-  },
-  {
-    "Ippatsu": " () A yaku where a player wins within one uninterrupted go-around after declaring riichi. Worth 1 han, closed only."
-  },
-  {
-    "Double riichi": " () A yaku where the player declares riichi after the first draw of their turn. Worth 2 han, closed only."
-  },
-  {
-    "Menzenchin tsumohou": " (Fully concealed hand) A yaku where all tiles, including the final one, are drawn from the wall. Worth 1 han, closed only."
-  },
-  {
-    "Tanyao": " (All simples) A yaku where the hand consists only of simple tiles. Worth 1 han."
-  },
-  {
-    "Pinfu": " (No-point hand) A yaku where the hand has no extra fu points. Worth 1 han, closed only."
-  },
-  {
-    "Iipeikou": " (Pure double sequence) A yaku where the hand contains two identical sequences. Worth 1 han, closed only."
-  },
-  {
-    "Ikkitsuukan": " (Straight) A yaku where the hand contains the sequences 123, 456, and 789 from one suit. Worth 2 han, or 1 han when open."
-  },
-  {
-    "Yakuhai": " (Value triplet) A yaku where the hand contains a triplet of a dragon, seat wind, or round wind. Worth 1 han."
-  },
-  {
-    "Sanshoku doujun": " (Triple sequences) A yaku where the hand contains the same numbered sequences across all three numbered tiles. Worth 2 han, or 1 han when open."
-  },
-  {
-    "Sanshoku doukou": " (Triple triples) A yaku where the hand contains the same numbered triplet across all three numbered tiles. Worth 2 han."
-  },
-  {
-    "Toitoihou": " (All triplets) A yaku where the open hand consists of four triplets and a pair. Worth 2 han."
-  },
-  {
-    "Sanankou": " (Three concealed triplets) A yaku where the hand contains three concealed triplets. Worth 2 han."
-  },
-  {
-    "Sankantsu": " (Three kans) A yaku where the hand contains three kans. Worth 2 han."
-  },
-  {
-    "Honchantaiyaochuu": " (Half outside hand) A yaku where each pair and group contains at least one terminal or honor tile."
-  },
-  {
-    "Junchantaiyaochuu": " (Outside hand) A yaku where each pair and group contains at least one terminal."
-  },
-  {
-    "Ryanpeikou": " (Twice pure double sequence) A yaku where the hand contains two iipeikou. Worth 3 han, closed only."
-  },
-  {
-    "Shousangen": " (Little Three Dragons) A yaku where the hand contains two triplets and a pair of dragons. Worth 2 han."
-  },
-  {
-    "Honroutou": " (All terminals and honors) A yaku where the hand contains four triplets and a pair that consist of terminal and honor tiles. Worth 2 han."
-  },
-  {
-    "Honiisou": " (Half flush) A yaku where the hand contains only honor tiles and tiles from a single suit. Worth 3 han, or 2 han when open."
-  },
-  {
-    "Chiniisou": " (Full flush) A yaku where the hand contains only tiles from a single suit. Worth 6 han, or 5 han when open."
-  },
-  {
-    "Chiitoitsu": " (Seven pairs) A yaku where the hand consists of seven pairs. Worth 2 han, closed only."
-  },
-  {
-    "Rinshan kaihou": " (After a kan) A yaku where the winning tile is drawn from the dead wall. Worth 1 han."
-  },
-  {
-    "Haitei raoyue": " (Under the sea) A yaku where the winning tile is the last tile to be drawn in the round. Worth 1 han."
-  },
-  {
-    "Houtei raoyui ": " (Under the river) A yaku where the winning tile is the last tile to be discarded in the round. Worth 1 han."
-  },
-  {
-    "Chankan": " (Robbing a kan) A yaku where the winning tile is robbed from an added kan. Worth 1 han."
-  },
-  {
-    "Kokushi musou": " (Thirteen orphans) A yakuman where the contains one of each honor and terminal tile, plus one duplicate. Closed only."
-  },
-  {
-    "Kokushi musou juusan menmachi": " (Thirteen orphans, thirteen-sided wait) A variant of kokushi musou where the hand had a thirteen-sided wait. Worth a double yakuman. Closed only."
-  },
-  {
-    "Daisangen": " (Big three dragons) A yakuman where the hand contains three triplets of dragons."
-  },
-  {
-    "Suuankou": " (Four concealed triplets) A yakuman where the hand contains four concealed triplets. Closed only."
-  },
-  {
-    "Suuankou tanki": " (Four concealed triplets, pair wait) A variant of suuankou where the hand had a pair wait. Worth a double yakuman. Closed only."
-  },
-  {
-    "Shousuushii": " (Little four winds) A yakuman where the hand contains three triplets and a pair of winds."
-  },
-  {
-    "Daisuushii": " (Big four winds) A yakuman where the hand contains four triplets of winds. Worth a double yakuman."
-  },
-  {
-    "Tsuuiisou": " (All honors) A yakuman where the hand consists solely of honor tiles."
-  },
-  {
-    "Ryuuiisou": " (All green) A yakuman where the hand consists solely of 2, 3, 4, 6, 8 of bamboos and/or green dragon."
-  },
-  {
-    "Chinroutou": " (All terminals) A yakuman where the hand consists solely of terminal tiles."
-  },
-  {
-    "Chuuren poutou": " (Nine gates) A yakuman where the hand contains the pattern 1-1-1-2-3-4-5-6-7-8-9-9-9 in a single suit plus one more tile in that suit. Closed only."
-  },
-  {
-    "Junsei chuuren poutou": " (Nine gates, nine-sided wait) A variant of chuuren poutou where the hand had a nine-sided wait. Worth a double yakuman. Closed only."
-  },
-  {
-    "Suukantsu": " (Four kans) A yakuman where the hand contains four kans."
-  },
-  {
-    "Tenhou": " (Blessing of heaven) A yakuman where the dealer wins with their initial hand."
-  },
-  {
-    "Chiihou": " (Blessing of Earth) A yakuman where a player wins on their first draw."
-  },
-  {
-    "Renhou": " (Blessing of human) A yaku where the player wins on a discard before they draw a tile. Worth 5 han. Closed only."
-  },
-  {
-    "Sanrenkou": " (Three consecutive triplets) A yaku where the hand contains three consecutive triplets in the same suit. Worth 2 han."
-  },
-  {
-    "Iishoku sanjun": " (Three identical sequences) A yaku where the hand contains three identical sequences. Worth 2 han."
-  },
-  {
-    "Shiisan puutaa": " (Thirteen non-matching tiles) A yaku where the initial consists of thirteen tiles that do not form any protogroup, except for a single pair. Worth 5 han. Closed only."
-  },
-  {
-    "Shousharin": " (Seven pairs in one suit) A yaku where the hand consists of seven pairs in one suit with at least one pair of terminals. Worth 2 han. Closed only."
-  },
-  {
-    "Kinkei dokuritsu": " (Lone golden rooster) A yaku where the player has four open groups and wins with a single wait on 1 of bamboos. Worth 5 han, regardless of other yaku."
-  },
-  {
-    "Nagashi mangan": " (Mangan at draw) A yaku where the round has drawn, and the player only discarded honor and terminal tiles and no one claimed them. Worth 5 han."
-  },
-  {
-    "Open riichi": " () A variant of riichi where the player shows their hand to other players. Worth 2 han, or a yakuman if a player who hasn’t declared riichi themself deals in; closed only."
-  },
-  {
-    "Otakaze sankou": " (Three valueless winds) A yaku where the player has three triplets of winds that are not the seat wind or the round wind. Worth 3 han, or 2 han when open."
-  },
-  {
-    "Uumensai": " (Five-suit hand) A yaku where the hand has a group of dragons, winds, bamboos, numbers, and circles. Worth 2 han."
-  },
-  {
-    "Kinmonkyou": " (Golden Gate Bridge) A yaku where the hand contains the sequences 123, 345, 567, 789 in one suit. Worth 3 han, or 2 han if open."
-  },
-  {
-    "Tsumabe gaeshi": " (Win on riichi discard) A yaku where the player wins on a tile discarded after another player’s riichi declaration. Worth 1 han."
-  },
-  {
-    "Suurenkou": " (Four consecutive triplets) A yakuman where the hand contains four consecutive triplets."
-  },
-  {
-    "Iishoku yonjun": " (Four identical sequences) A yakuman where the hand contains four identical sequences."
-  },
-  {
-    "Shiisuu puutaa": " (Fourteen non-matching tiles) A yakuman where the initial consists of thirteen tiles that do not form any protogroup, except for a single pair. Closed only."
-  },
-  {
-    "Daichiisei": " (Seven distinct honor pairs) A yakuman where the hand consists of seven distinct honor pairs. Closed only."
-  },
-  {
-    "Daisharin": " (Seven simple pairs in one suit) A yakuman where the hand consists of seven pairs in one suit without any terminals. Closed only."
-  },
-  {
-    "Beni kujaku": " (Red peacock) A yakuman where the hand consists only of 1, 5, 7, 9 of bamboos and/or red dragon."
-  },
-  {
-    "Paarenchan": " (Ninth dealer win in a row) A yakuman where the dealer wins with at least eight honba on the table."
-  },
-  {
-    "Go zoku kyouwa": " (Five races, one union) A yakuman where the hand contains four triplets of bamboos, numbers, circles, dragons, and a pair of seat wind. Closed only."
-  },
-  {
-    "Daikinmonkyou": " (Big Golden Gate Bridge) A yakuman where the hand contains the sequences 123, 345, 567, 789 in one suit, plus a pair in the same suit."
-  },
-  {
-    "Hyakuman goku": " (One million stones) A yakuman where the hand consists of only number tiles and the sum of all of their numeric values is at least 100."
-  },
-  {
-    "Ao no doumon": " (The Blue Tunnel) A yakuman where the hand consists only of 2, 4, 8 of circles and wind tiles. Closed only."
-  },
-  {
-    "Kaachou fuugetsu": " (Beauties of nature) A yakuman where the hand contains triplets of 5 of circles, 1 of circles, seat wind, and 1 of bamboos."
-  },
-  {
-    "Fuuka setsugetsu": " (The four seasons) A yakuman where the hand contains triplets of 5 of circles, 1 of circles, seat wind, and white dragon."
-  }
-]
+{
+  "Agari": " (Win) Generic call for winning a hand.",
+  "Agaripai": " (Winning tile) The 14th tile that completes a hand.",
+  "Agariyame": " () An end game condition that allows the last dealer to declare the end of the game, when in possession of the first place position.",
+  "Aidayonken": " (Four in between) An interval of four between two discarded number tiles. Usually indicates dangerous waits. A discarded 1 and 6 make a 2—5 wait very probable.",
+  "Akapai": " (Red dora) Red tiles that count as Dora. Usually fives, but not always.",
+  "An": " (Closed, concealed) Means _dark_ refers to tiles that are concealed in the hand.",
+  "Anjun": " (Concealed sequence) Three self-drawn consecutive tiles of the same suit, used as one of the four tile groups in a regular hand. An open sequence would be a minjun, the general term for a sequence is shuntsu.",
+  "Ankan": " (Concealed kan) Four self-drawn identical tiles set aside as a kantsu. Declaring an ankan does not open the hand if it was previously closed.",
+  "“Ankou": " (Concealed triplet) Three self-drawn identical tiles, used as one of the four tile groups in a regular hand. Compare with the yaku names san ankou and suu ankou. An open triplet would be a minkou, and the general term for any triplet is koutsu.",
+  "Anpai": " (Safe tile) Safe tile, or tiles not subject to _agari_ (to be called as winning tiles).",
+  "Aotenjou": " (No capping) A rarely used rule, which eliminates the score cappings _mangan_ _haneman_ etc., and scores all hands as directly with the scoring formula.",
+  "Ari": " (In effect, on) States that the preceding rule is used, as in akadora ari for playing with red fives. Opposite of nashi.",
+  "Ari ari": " () Ruleset which allows kuitan and atozuke. Most common basic set of rules in Japan.",
+  "Atama": " (Pair, eye) The pair in a standard mahjong hand. Also _jantou_.",
+  "Atamahane": " (Head bump) A rule that allows only one Ron at a time; the closest to the discarder in turn order takes priority.",
+  "Atozuke": " (After-attach) Allows a hand to win despite having no guaranteed yaku while in tenpai, as long as the winning tile generates a yaku.",
+  "Awaseuchi": " () Discarding the same tile as someone else, to avoid dealing into their hand.",
+  "Ba": " (Wind round) A _wind round_ e.g. tonba (east round) or nanba (south round).",
+  "Baiman": " () A hand worth 8 to 10 han.",
+  "Bakahon": " () Slang for _honitsu nomi_ with no extra yaku or dora.",
+  "Bakaze": " (Round wind) Round wind.",
+  "Barai": " (Payment) A payment.  Also _furikomi_.",
+  "Basengo": " () A rule where each honba counter is worth of 1500 points instead of the regular 300 points.",
+  "Bazoro": " () The two base Han used when calculating score, given by default rather than from yaku.",
+  "Betaori": " (Full defense) A strategy that focuses entirely on avoiding dealing into opponents’ hands, with no intention of developing one’s own hand.",
+  "Chakan": " (Added kan) A kantsu that was upgraded from a minkou.",
+  "Shouminkan": " (Added kan) A kantsu that was upgraded from a minkou.",
+  "Chii": " () The call used to make a minjun from an opponent’s discard.",
+  "Chombo": " () A penalty, applied to particularly unacceptable mahjong plays, such as winning with an invalid hand or destroying the wall.  Typically, the penalty results in a mangan payment to all players and restarts the current round.  Otherwise, penalty values may be subject to Rule variation.",
+  "Chunchan": " (Simples) The zone of tiles numbered from 2 through 8, representing tiles that can be grouped with tiles on each of its sides.",
+  "Chunchanhai": " (Simples) The tiles in the zone numbered from 2 through 8. See tanyao for related yaku. Opposite of _yaochuuhai_.",
+  "Daburon": " (Double ron) A rule that allows two people to simultaneously win from the same discarded tile.",
+  "Daiminkan": " (Open kan) A kan formed with possession of three tile types, and calling on the discarded fourth tile.",
+  "Damaten": " (Hidden tenpai) A tactic of holding tenpai without calling riichi.",
+  "Dejitaru": " (Digital) A school of thought focused on the outcome of a game, explained by probability and statistics.",
+  "Dora": " (Bonus tile) A feature to the game which rewards han to a hand, while in possession of tiles indicated by the revealed tile from the dead wall.",
+  "Dorahyouji": " (Dora indicator) The flipped tile on the dead wall, indicating the dora.",
+  "Enchousen": " (Overtime) Extra game round, in the event where no player scores more than the target points at the end of a normal game.",
+  "Fu": " (Mini-points) A unit used to measure the hand’s score, based on tile group and wait composition.",
+  "Furikomi": " (Payment) A payment, also _barai_.",
+  "Furiten": " (Sacred discard) A rule that disables a player’s ability to win by discard, due to the presence of a winning tile in the discard and/or the declining of a win during riichi.",
+  "Fuuro": " (tile group) Calling of discarded tile or closed kan, also _naki_.",
+  "Fuutei": " (Base fu) The 20 base Fu used when calculating score, given by default rather than from composition.",
+  "Genbutsu": " (Safe tile) A 100% safe tile.",
+  "Goumii": " (Trash, garbage) The cheapest tsumo value, of 500 points from the dealer and 300 points from the non-dealers.",
+  "Gyakuten": " (Passing, reversal) Refers to a situation, where a player passes up another player in points, at the end of the game.",
+  "Haipai": " (Start hand) The players’ dealt tiles at the beginning of a hand.",
+  "Haiteihai": " (Last draw) The last drawable tile in the wall.",
+  "Haiyama": " (Wall) The walls from which tiles are drawn.",
+  "Han": " () The hand value count based on yaku value and/or dora.",
+  "Hanchan": " (Full East-South game) A game consisting of an East and South round.",
+  "Haneman": " () A hand worth 6 or 7 han.",
+  "Harabote": " () A Shanpon or Tanki wait embedded inside a Shuntsu. For example, 4556 waiting on 5.",
+  "Hikkake": " (Trap) Discard tiles indicating particular tiles as safe, when in fact, they are not - contrary to standard defense reading.",
+  "Honba": " (Repeat counter) A counter to indicate the number of hands in-between winning hands, usually indicated by 100-point sticks.",
+  "Houjuu": " (Deal in) To deal into a hand.",
+  "Houra": " () To win a hand",
+  "Houteihai": " (Last discard) The very last discarded tile for a hand, which may not subject to any tile calls other than _ron_.",
+  "Iichan": " (4 round game) A game consisting of East, South, West, and North rounds. More common in Chinese variants.",
+  "Ikasama": " () To cheat using sleight of hand, etc.",
+  "Inchiki": " (Rigging) Cheating by manipulating devices integral to the game (autodealer, game client) or outside it (cameras, telegraphs, radio).",
+  "Jansou": " (Mahjong parlor) A public place specifically used to host and cater mahjong play",
+  "Jantou": " (Pair, eye) The pair in a standard mahjong hand. Also _atama_.",
+  "Jigokumachi": " (Hell wait) A wait in which all but one of the winning tiles are visible or claimed.",
+  "Jihai": " (Honor tiles) The honor tiles (sangenpai and kazehai).",
+  "Jikaze": " (Self wind) Your seat wind.",
+  "Jun": " (Turn) The turn number within a round.",
+  "Kabe": " () A tile-counting technique that measures the possibility of someone making Shuntsu based on how many instances of a tile are visible.",
+  "Kakan": " (Upgraded kan) A kan that was upgraded from a tile grouped set, from a player’s own draws or hand.",
+  "Kamicha": " () The player to the left of one’s perspective.",
+  "Kandora": " () Additional dora indicators revealed after calling kan.",
+  "Kata agari": " () A hand tenpai for at least one invalid tile.",
+  "Kawa": " (Pond, Discard pile) Meaning _river_.  This describes the discarded tiles.",
+  "Kantsu": " (Quad) A tile group of four identical tiles, which must be declared as kan to be counted as such.",
+  "Kanchan": " (Closed wait) A wait that completes the inside of a Shuntsu, like a 4-6 waiting on 5.",
+  "Karaten": " (Empty tenpai) The state of a tenpai hand, by which all available waiting tiles are not available due to discards and/or dora indicators.",
+  "Kazehai": " (Winds) Wind tiles.",
+  "Keishiki tenpai": " () A state of tenpai that contains no yaku.  As long as the hand is waiting for a tile that could exist anywhere outside a player’s hand and calls, the hand is considered tenpai.",
+  "Kikenhai": " (Dangerous tile) Dangerous tile, or a tile that may be likely used by another player to win with.",
+  "Kiriage Mangan": " (Rounded Mangan) A rule where 3 Han 60 Fu and 4 Han 30 Fu are rounded up to Mangan.",
+  "Kiru": " (Discard) To discard a tile.",
+  "Koutsu": " (Triplet) A tile group of three identical tiles.",
+  "Kuikae": " () A rule that allows you to call a tile, then discard another tile that could have completed the tile group. For example, calling a 1 when you have 234 and then discard a 4.",
+  "Kuisagari": " () A property of some yaku that reduces the han value by 1 when the hand is open.",
+  "Kuitan": " (Open tanyao) A rule that allows tanyao to be open.",
+  "Kyoku": " (Round, Hand session) A portion of the game, starting from the dealing of tiles and ends with the declaration of a win, Tochuu aborted hand, or draw. Examples:  East Round 1.  South Round 2.",
+  "Machi": " (Wait pattern) The tiles waiting for with a tenpai hand.",
+  "Mangan": " () A cap applied to the standard scoring equation.  Hands worth 3 han 70+ fu. 4 han 40+ fu, or 5 han are valued at mangan.",
+  "Manzu": " (Characters) One of the three numbered suits, consisting of a kanji number plus 萬, meaning 10000.",
+  "Mawashiuchi": " (Avoidance play) The strategy of attempting to develop a hand, while discarding only safe tiles.",
+  "Mentanpin": " () Abbreviation for Menzen-Tanyao-Pinfu, a common set of yaku.",
+  "Mentsu": " (tile group, Group (tiles)) The tile groups: koutsu, shuntsu, and kantsu.",
+  "Menzen": " (Closed hand) A fully closed hand, thus no open tile groups.",
+  "Min": " (Open) Meaning _light_ refers to tiles that have been exposed by calling.",
+  "Minjun": " (Open sequence) An open shuntsu, or a sequence of three consecutive tiles, formed by calling chii on the previously missing tile. A concealed shuntsu would be an anjun.",
+  "Minkou": " (Open triplet) An open koutsu made by calling a discarded tile.",
+  "Minogashi": " (Let free) The act of declining a winning tile.",
+  "Moupai": " (Blind touch) The act of reading a tile by touch, instead of looking at the tile.",
+  "Naki": " () Calling a discarded tile.",
+  "Nan": " (South) South wind tile.",
+  "Nashi": " (Invalid, off) States that the preceding rule is not in effect._nFor example, as in kuikae nashi for disallowing players to call a tile and immediately discard another tile which would have also completed the called tile group.",
+  "Nashi Nashi": " () Ruleset which disallows kuitan and atozuke. Opposite of Ari Ari.",
+  "Nobetan": " (Extended tanki) A double Tanki wait, e.g. 4567 waiting on 4 or 7.",
+  "Nomi": " (Only) A term referring to a hand containing just a single yaku and no dora.  The term is not applicable to nagashi mangan or yakuman.",
+  "Noten": " (No tenpai) When your hand is not in tenpai at the end of the round.",
+  "Noten bappu": " (Noten penalty) A payment made at the end of a round by those who are not in tenpai (or choose not to reveal their hands) to those who are in tenpai.",
+  "Nukidora": " (Extracted dora) A tile that counts as Dora when extracted from the hand, e.g. flower tiles or the Pei (North) in most three-player variants.",
+  "Okaruto": " (Occult, Superstition) A school of thought tying game outcome with luck, flow, mahjong demons, psychology, etc.",
+  "Oka": " (Winner bonus) First place bonus applied when calculating uma.",
+  "Oikake riichi": " (Riichi roulette) To declare riichi after someone else rather than defend.",
+  "Okurikan": " () Four tiles that could be called for kan, but rather left undeclared in order to use the tiles for other tile groups.",
+  "Oorasu": " (All last, Last hand) The final regular hand of a game.",
+  "Otakaze": " (Off wind tiles) Non-bonus wind tiles. For example, if seated South in the East round, then Otakaze are West and North tiles.",
+  "Oya": " (Dealer) The dealer position, seated east",
+  "Pai": " (Draw) Generic term for a tile draw, usually attached to specific tile draws like _rinshanpai_ or _haiteihai_.",
+  "Pao": " () A property of certain yakuman that causes one person to be responsible for the whole payment if they discarded the tile that made it a yakuman.",
+  "Pei": " (North) North wind tile.",
+  "Penchan": " (End wait) A wait consisting of 12 waiting on 3, or 89 waiting on 7.",
+  "Pinzu": " (Dots, Circles) The suit consisting of dot patterns.",
+  "Pon": " (Open triplet) A tile call used to make a minkou from an opponent’s discard.",
+  "Renchan": " () A continuation of dealer position because the dealer either won or was tenpai at the end of the round.",
+  "Riipai": " (Sorting) Arranging the tiles in your hand.",
+  "Rinshanpai": " (Dead wall draw) The tile drawn after making a Kan.",
+  "Ron": " (Deal in) A win using an opponent’s discard.",
+  "Routouhai": " (Terminals) The tiles numbered 1 and 9.",
+  "Ryanhan shibari": " (2-han minimum) A minimum limit of 2-han is applied to winning hands.  Usually, this is applied when the honba count reaches 5.",
+  "Ryankan": " () Two kanchan shaped taatsu merged together, e.g. 357 which can be completed by either 4 or 6.",
+  "Ryanmen": " (Open wait) A two-sided wait, like 56 waiting on 4 or 7.",
+  "Ryuukyoku": " (Drawn hand) The end of the hand, where every tile not in players’ hands and the dead wall has been drawn and discarded; and no winning hand was determined.",
+  "Saikoro": " (Dice) The dice, used to determine dealer position and wall breaks.",
+  "Sakigiri": " () The act of discarding potentially dangerous tiles, before they actually become dangerous.",
+  "Sakizuke": " () Same as atozuke. Some people think that sakizuke is the opposite of atozuke, but that is incorrect.",
+  "Sanbaiman": " () A hand worth 11 or 12 han.",
+  "Sangenpai": " (Dragons) The dragon tile: Haku, Hatsu, and Chun.",
+  "Sanma": " (Three player, 3P) The game played with three players.",
+  "Sashikomi": " () Intentionally dealing into an opponent’s hand.",
+  "Senten": " () A 1,000 point hand.",
+  "Shaa/Xia": " (West) The west tile.",
+  "Shabo": " (Dual pair) Abbreviation of shanpon.",
+  "Shanten": " () Number of tiles needed to reach tenpai.",
+  "Shanpon": " (Dual pairs) A wait consisting of two pairs, one of which must be upgraded to a koutsu.",
+  "Shibori": " () Holding on to tiles that an opponent would otherwise be likely to pon or chi.",
+  "Shimocha": " (Right player) The player to the right.",
+  "Shoku": " (Color) Suit.  Literally means _color_.",
+  "Shonpai": " (Live tile) A tile that has not yet been discarded this round.",
+  "Shuntsu": " (Sequence) This is the generic term for, three consecutive tiles of the same suit, whether open or closed. Chii is used to call a tile to complete a shuntsu and set it aside as a minjun (open). A concealed (closed) shuntsu is an anjun.",
+  "Shuupai": " (Number tiles) The number tiles. Also _suupai_.",
+  "Somete": " (Flushing hand) A common saying of flushing hand, usually Honitsu (Half Flush) and Chinitsu (Full Flush). Literally means _dyeing hand_.",
+  "Souzu": " (Bamboo tiles) The suit consisting of patterns of bamboo sticks.",
+  "Suji": " (Tile interval) The tiles that complete ryanmen (open waits).  Means _muscle_.",
+  "Suupai": " (Number tiles) The number tiles. Also _shuupai_.",
+  "Suteru": " (To discard) To discard a tile.",
+  "Taatsu": " (Protogroup) Any tile pair that can be turned into a tile group, or shuntsu, with one more tile. For example, 46 can be completed with a 5.",
+  "Takame": " () The specific tile with a multiple tile wait, during tenpai, that would produce the most points.  Opposite of _yasume_.",
+  "Tanyaohai": " (Simples) The tiles numbered 2 through 8. Also _chunchan_.",
+  "Tanki": " (Pair wait) A wait on a single tile to complete the pair.",
+  "Tedashi": " () To discard a tile originally from hand. Opposite of _tsumogiri_.",
+  "Tenbou": " (Point sticks) Point sticks used for manual scoring.",
+  "Tenpai": " (Ready) A hand that needs only one tile to win.",
+  "Tenpane": " () The advantage of rounding up to the higher 10 fu mark, when just crossing the previous 10 fu.  Example: Being 2 fu above 30 fu, allowing an above rounding of 40 fu.",
+  "Tobi": " (Bankrupt, Negative) The condition by which players points fall below zero (go into negative).",
+  "Tochuu ryuukyoku": " (Abortive draw) Specific conditions that immediately ends a hand session.",
+  "Toitsu": " (Pair) A pair of identical tiles.",
+  "Toimen": " (Across) The player sitting directly across from you.",
+  "Ton": " (East) East wind tile.",
+  "Tonpuusen": " (East only round) A game consisting of an East only round.",
+  "Tsumo": " (Self-draw) A self-drawn tile.  Also short for Menzenchin tsumohou, or winning by self-draw.",
+  "Tsumogiri": " () Discarding the tile that was just drawn. Opposite of _tedashi_.",
+  "Ukeire": " () The tile count for a hand in order to reduce shanten.",
+  "Uradora": " (Underneath dora) Additional dora located underneath previously revealed dora indicators, which can be earned by winning with riichi.",
+  "Urasuji": " (Back vein) The discarded tile that lies just outside of a dangerous wait, one count higher (or lower) and represent a kanchan wait being upgraded to a ryanmen one",
+  "Wanpai": " (Dead wall) The _dead_ section of wall that can’t be used except for Dora indicators and Kan draws.",
+  "Wareme": " () A rule that doubles any payment involving the player whose wall was broken at the start of the hand.",
+  "Yakitori": " (Winless game) A game, by which a player did not win at least one hand during a game .",
+  "Yaku": " (Hand pattern) A required scoring pattern or condition in the hand that awards han, such as Tanyao or Toitoi.",
+  "Yakuman": " (Limit hand) A hand worth 13 han or more, or a specific pattern among the yakuman classed hand patterns.  Maximum points for a pattern is awarded without aotenjou applied.",
+  "Yama": " () The tile walls, literally means _mountains_.",
+  "Yamagoshi": " () A tactic of declining a winning tile, until after one’s subsequent turn.",
+  "Yamiten": " () Another word for _damaten_.",
+  "Yaochuuhai": " () All tiles numbered 1 and 9 (routouhai) plus characters (jihai).",
+  "Yasude": " (Cheap hand) A low scoring hand.",
+  "Yasume": " () The specific tile(s) in a multiple wait that would produce the least points. Opposite of _takame_.",
+  "Zentsuppa": " (All out) A strategy that attempts to win a hand at all costs while ignoring the possibility of dealing into an opponent’s hand.",
+  "Iiman": " (One of numbers) The one of numbers tile.",
+  "Ryanman": " (Two of numbers) The two of numbers tile.",
+  "Sanman": " (Three of numbers) The three of numbers tile.",
+  "Suuman": " (Four of numbers) The four of numbers tile.",
+  "Uuman": " (Five of numbers) The five of numbers tile.",
+  "Rouman": " (Six of numbers) The six of numbers tile.",
+  "Chiiman": " (Seven of numbers) The seven of numbers tile.",
+  "Paaman": " (Eight of numbers) The eight of numbers tile.",
+  "Kyuuman": " (Nine of numbers) The nine of numbers tile.",
+  "Iipin": " (One of circles) The one of circles tile.",
+  "Ryanpin": " (Two of circles) The two of circles tile.",
+  "Sanpin": " (Three of circles) The three of circles tile.",
+  "Suupin": " (Four of circles) The four of circles tile.",
+  "Uupin": " (Five of circles) The five of circles tile.",
+  "Roupin": " (Six of circles) The six of circles tile.",
+  "Chiipin": " (Seven of circles) The seven of circles tile.",
+  "Paapin": " (Eight of circles) The eight of circles tile.",
+  "Kyuupin": " (Nine of circles) The nine of circles tile.",
+  "Iisou": " (One of bamboos) The one of bamboos tile.",
+  "Ryansou": " (Two of bamboos) The two of bamboos tile.",
+  "Sansou": " (Three of bamboos) The three of bamboos tile.",
+  "Suusou": " (Four of bamboos) The four of bamboos tile.",
+  "Uusou": " (Five of bamboos) The five of bamboos tile.",
+  "Rousou": " (Six of bamboos) The six of bamboos tile.",
+  "Chiisou": " (Seven of bamboos) The seven of bamboos tile.",
+  "Paasou": " (Eight of bamboos) The eight of bamboos tile.",
+  "Kyuusou": " (Nine of bamboos) The nine of bamboos tile.",
+  "Haku": " (White dragon) The white dragon tile.",
+  "Hatsu": " (Green dragon) The green dragon tile.",
+  "Chun": " (Red dragon) The red dragon tile.",
+  "Riichi": " () A yaku where one declares their hand ready at the cost of being unable to change it. Worth 1 han, closed only.",
+  "Ippatsu": " () A yaku where a player wins within one uninterrupted go-around after declaring riichi. Worth 1 han, closed only.",
+  "Double riichi": " () A yaku where the player declares riichi after the first draw of their turn. Worth 2 han, closed only.",
+  "Menzenchin tsumohou": " (Fully concealed hand) A yaku where all tiles, including the final one, are drawn from the wall. Worth 1 han, closed only.",
+  "Tanyao": " (All simples) A yaku where the hand consists only of simple tiles. Worth 1 han.",
+  "Pinfu": " (No-point hand) A yaku where the hand has no extra fu points. Worth 1 han, closed only.",
+  "Iipeikou": " (Pure double sequence) A yaku where the hand contains two identical sequences. Worth 1 han, closed only.",
+  "Ikkitsuukan": " (Straight) A yaku where the hand contains the sequences 123, 456, and 789 from one suit. Worth 2 han, or 1 han when open.",
+  "Yakuhai": " (Value triplet) A yaku where the hand contains a triplet of a dragon, seat wind, or round wind. Worth 1 han.",
+  "Sanshoku doujun": " (Triple sequences) A yaku where the hand contains the same numbered sequences across all three numbered tiles. Worth 2 han, or 1 han when open.",
+  "Sanshoku doukou": " (Triple triples) A yaku where the hand contains the same numbered triplet across all three numbered tiles. Worth 2 han.",
+  "Toitoihou": " (All triplets) A yaku where the open hand consists of four triplets and a pair. Worth 2 han.",
+  "Sanankou": " (Three concealed triplets) A yaku where the hand contains three concealed triplets. Worth 2 han.",
+  "Sankantsu": " (Three kans) A yaku where the hand contains three kans. Worth 2 han.",
+  "Honchantaiyaochuu": " (Half outside hand) A yaku where each pair and group contains at least one terminal or honor tile.",
+  "Junchantaiyaochuu": " (Outside hand) A yaku where each pair and group contains at least one terminal.",
+  "Ryanpeikou": " (Twice pure double sequence) A yaku where the hand contains two iipeikou. Worth 3 han, closed only.",
+  "Shousangen": " (Little Three Dragons) A yaku where the hand contains two triplets and a pair of dragons. Worth 2 han.",
+  "Honroutou": " (All terminals and honors) A yaku where the hand contains four triplets and a pair that consist of terminal and honor tiles. Worth 2 han.",
+  "Honiisou": " (Half flush) A yaku where the hand contains only honor tiles and tiles from a single suit. Worth 3 han, or 2 han when open.",
+  "Chiniisou": " (Full flush) A yaku where the hand contains only tiles from a single suit. Worth 6 han, or 5 han when open.",
+  "Chiitoitsu": " (Seven pairs) A yaku where the hand consists of seven pairs. Worth 2 han, closed only.",
+  "Rinshan kaihou": " (After a kan) A yaku where the winning tile is drawn from the dead wall. Worth 1 han.",
+  "Haitei raoyue": " (Under the sea) A yaku where the winning tile is the last tile to be drawn in the round. Worth 1 han.",
+  "Houtei raoyui ": " (Under the river) A yaku where the winning tile is the last tile to be discarded in the round. Worth 1 han.",
+  "Chankan": " (Robbing a kan) A yaku where the winning tile is robbed from an added kan. Worth 1 han.",
+  "Kokushi musou": " (Thirteen orphans) A yakuman where the contains one of each honor and terminal tile, plus one duplicate. Closed only.",
+  "Kokushi musou juusan menmachi": " (Thirteen orphans, thirteen-sided wait) A variant of kokushi musou where the hand had a thirteen-sided wait. Worth a double yakuman. Closed only.",
+  "Daisangen": " (Big three dragons) A yakuman where the hand contains three triplets of dragons.",
+  "Suuankou": " (Four concealed triplets) A yakuman where the hand contains four concealed triplets. Closed only.",
+  "Suuankou tanki": " (Four concealed triplets, pair wait) A variant of suuankou where the hand had a pair wait. Worth a double yakuman. Closed only.",
+  "Shousuushii": " (Little four winds) A yakuman where the hand contains three triplets and a pair of winds.",
+  "Daisuushii": " (Big four winds) A yakuman where the hand contains four triplets of winds. Worth a double yakuman.",
+  "Tsuuiisou": " (All honors) A yakuman where the hand consists solely of honor tiles.",
+  "Ryuuiisou": " (All green) A yakuman where the hand consists solely of 2, 3, 4, 6, 8 of bamboos and/or green dragon.",
+  "Chinroutou": " (All terminals) A yakuman where the hand consists solely of terminal tiles.",
+  "Chuuren poutou": " (Nine gates) A yakuman where the hand contains the pattern 1-1-1-2-3-4-5-6-7-8-9-9-9 in a single suit plus one more tile in that suit. Closed only.",
+  "Junsei chuuren poutou": " (Nine gates, nine-sided wait) A variant of chuuren poutou where the hand had a nine-sided wait. Worth a double yakuman. Closed only.",
+  "Suukantsu": " (Four kans) A yakuman where the hand contains four kans.",
+  "Tenhou": " (Blessing of heaven) A yakuman where the dealer wins with their initial hand.",
+  "Chiihou": " (Blessing of Earth) A yakuman where a player wins on their first draw.",
+  "Renhou": " (Blessing of human) A yaku where the player wins on a discard before they draw a tile. Worth 5 han. Closed only.",
+  "Sanrenkou": " (Three consecutive triplets) A yaku where the hand contains three consecutive triplets in the same suit. Worth 2 han.",
+  "Iishoku sanjun": " (Three identical sequences) A yaku where the hand contains three identical sequences. Worth 2 han.",
+  "Shiisan puutaa": " (Thirteen non-matching tiles) A yaku where the initial consists of thirteen tiles that do not form any protogroup, except for a single pair. Worth 5 han. Closed only.",
+  "Shousharin": " (Seven pairs in one suit) A yaku where the hand consists of seven pairs in one suit with at least one pair of terminals. Worth 2 han. Closed only.",
+  "Kinkei dokuritsu": " (Lone golden rooster) A yaku where the player has four open groups and wins with a single wait on 1 of bamboos. Worth 5 han, regardless of other yaku.",
+  "Nagashi mangan": " (Mangan at draw) A yaku where the round has drawn, and the player only discarded honor and terminal tiles and no one claimed them. Worth 5 han.",
+  "Open riichi": " () A variant of riichi where the player shows their hand to other players. Worth 2 han, or a yakuman if a player who hasn’t declared riichi themself deals in; closed only.",
+  "Otakaze sankou": " (Three valueless winds) A yaku where the player has three triplets of winds that are not the seat wind or the round wind. Worth 3 han, or 2 han when open.",
+  "Uumensai": " (Five-suit hand) A yaku where the hand has a group of dragons, winds, bamboos, numbers, and circles. Worth 2 han.",
+  "Kinmonkyou": " (Golden Gate Bridge) A yaku where the hand contains the sequences 123, 345, 567, 789 in one suit. Worth 3 han, or 2 han if open.",
+  "Tsumabe gaeshi": " (Win on riichi discard) A yaku where the player wins on a tile discarded after another player’s riichi declaration. Worth 1 han.",
+  "Suurenkou": " (Four consecutive triplets) A yakuman where the hand contains four consecutive triplets.",
+  "Iishoku yonjun": " (Four identical sequences) A yakuman where the hand contains four identical sequences.",
+  "Shiisuu puutaa": " (Fourteen non-matching tiles) A yakuman where the initial consists of thirteen tiles that do not form any protogroup, except for a single pair. Closed only.",
+  "Daichiisei": " (Seven distinct honor pairs) A yakuman where the hand consists of seven distinct honor pairs. Closed only.",
+  "Daisharin": " (Seven simple pairs in one suit) A yakuman where the hand consists of seven pairs in one suit without any terminals. Closed only.",
+  "Beni kujaku": " (Red peacock) A yakuman where the hand consists only of 1, 5, 7, 9 of bamboos and/or red dragon.",
+  "Paarenchan": " (Ninth dealer win in a row) A yakuman where the dealer wins with at least eight honba on the table.",
+  "Go zoku kyouwa": " (Five races, one union) A yakuman where the hand contains four triplets of bamboos, numbers, circles, dragons, and a pair of seat wind. Closed only.",
+  "Daikinmonkyou": " (Big Golden Gate Bridge) A yakuman where the hand contains the sequences 123, 345, 567, 789 in one suit, plus a pair in the same suit.",
+  "Hyakuman goku": " (One million stones) A yakuman where the hand consists of only number tiles and the sum of all of their numeric values is at least 100.",
+  "Ao no doumon": " (The Blue Tunnel) A yakuman where the hand consists only of 2, 4, 8 of circles and wind tiles. Closed only.",
+  "Kaachou fuugetsu": " (Beauties of nature) A yakuman where the hand contains triplets of 5 of circles, 1 of circles, seat wind, and 1 of bamboos.",
+  "Fuuka setsugetsu": " (The four seasons) A yakuman where the hand contains triplets of 5 of circles, 1 of circles, seat wind, and white dragon."
+}
